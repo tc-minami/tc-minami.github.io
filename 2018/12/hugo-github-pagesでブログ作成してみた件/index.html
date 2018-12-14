@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.52 with theme Tranquilpeak 0.4.3-SNAPSHOT">
 <meta name="author" content="南ひろあき">
-<meta name="keywords" content=", ノマドコーダー, Nomad Coder, 開発, 開発ブログ, 技術ブログ">
+<meta name="keywords" content="Hugo, Github, GitHub pages, ブログ, ノマドコーダー, Nomad Coder, 開発, 開発ブログ, 技術ブログ, 技術, ノマド, コーダー">
 <meta name="description" content=" 見切り発車満載ですが、以前まで試していた自作CSSでのブログ開発は一旦止めて、Hugoを使ってブログを進めてみようかと思います。
 なぜHugoに変更するか Hugo自体がどれだけ凄いのか、とは他の選択肢は？というのは正直よくわかっていません。現状言えるのは今のブログのトレンドが静的サイトジェネレーターを使うっぽいという事と、単にHugoという名前をよく見かけたからです。
 なのでとりあえずはHugoを使って色々試して、もしかしたらまた何かに以降する可能性はあります。今の所は手軽にブログが書けて、三日坊主にならない方法を模索したい感じですね。 （前回はCSSの勉強、というよりデザインのダメダメさ、がキツくて意欲だだ下がりしていたので…）
@@ -115,6 +115,10 @@ Hugoの凄い所 今回初めてHugoを使って、今始めての記事を書�
 
 <meta name="twitter:card" content="summary">
 
+  <meta name="twitter:site" content="@tc_minami">
+
+
+  <meta name="twitter:creator" content="@tc_minami">
 
 
 
@@ -131,7 +135,7 @@ Hugoの凄い所 今回初めてHugoを使って、今始めての記事を書�
 
     <title>Hugo &#43; GitHub Pagesでブログ作成してみた件</title>
 
-    <link rel="icon" href="https://tc-minami.github.io/favicon.png">
+    <link rel="icon" href="./img/favicon.png">
     
 
     
@@ -148,9 +152,14 @@ Hugoの凄い所 今回初めてHugoを使って、今始めての記事を書�
     
 
     
-    <link rel="stylesheet" href="https://tc-minami.github.io/css/nc-text.css" />
+    
+    
     
 
+    
+      
+        <link rel="stylesheet"  href="https://tc-minami.github.io/css/nc-text.css">
+      
     
 
     
@@ -174,7 +183,7 @@ if (!doNotTrack) {
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="3">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://tc-minami.github.io/">ノマドコーダー</a>
@@ -182,7 +191,7 @@ if (!doNotTrack) {
   
     
       <a class="header-right-picture "
-         href="https://tc-minami.github.io/#about">
+         href="https://tc-minami.github.io/">
     
     
     
@@ -194,7 +203,7 @@ if (!doNotTrack) {
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="3">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -202,6 +211,8 @@ if (!doNotTrack) {
           <img class="sidebar-profile-picture" src="https://user-images.githubusercontent.com/8590431/49858824-8f3bad80-fe28-11e8-8144-ae707c9fec8c.png" alt="プロフィール画像" />
         </a>
         <h4 class="sidebar-profile-name">南ひろあき</h4>
+        
+          <h5 class="sidebar-profile-bio">色々な国を巡ってノマドっぽい生活したい人。</h5>
         
       </div>
     
@@ -247,23 +258,13 @@ if (!doNotTrack) {
     </a>
   </li>
 
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://tc-minami.github.io/#about">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-      
-      <span class="sidebar-button-desc">プロフィール</span>
-    </a>
-  </li>
-
 
     </ul>
     <ul class="sidebar-buttons">
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://github.com/kakawait" target="_blank" rel="noopener">
+      <a class="sidebar-button-link " href="https://github.com/tc-minami" target="_blank" rel="noopener">
     
       <i class="sidebar-button-icon fa fa-lg fa-github"></i>
       
@@ -273,11 +274,11 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait" target="_blank" rel="noopener">
+      <a class="sidebar-button-link " href="https://qiita.com/tc_minami" target="_blank" rel="noopener">
     
-      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      <i class="sidebar-button-icon fa fa-lg fa-quora"></i>
       
-      <span class="sidebar-button-desc">Stack Overflow</span>
+      <span class="sidebar-button-desc">Qiita</span>
     </a>
   </li>
 
@@ -285,16 +286,6 @@ if (!doNotTrack) {
     </ul>
     <ul class="sidebar-buttons">
       
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://tc-minami.github.io/index.xml">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-      
-      <span class="sidebar-button-desc">RSS</span>
-    </a>
-  </li>
-
 
     </ul>
   </div>
@@ -302,7 +293,7 @@ if (!doNotTrack) {
 
       
 
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="3"
         class="
                hasCoverMetaIn
                ">
@@ -494,12 +485,12 @@ if (!doNotTrack) {
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2018 南ひろあき. All Rights Reserved
+    &copy; 2018 <a href="https://github.com/tc-minami">tc-minami</a>. All Rights Reserved
   </span>
 </footer>
 
       </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
         <div class="post-actions-wrap">
   
       <nav >
@@ -570,7 +561,7 @@ if (!doNotTrack) {
 </div>
 
       </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+      <div id="share-options-bar" class="share-options-bar" data-behavior="3">
   <i id="btn-close-shareoptions" class="fa fa-close"></i>
   <ul class="share-options">
     
@@ -607,11 +598,13 @@ if (!doNotTrack) {
     
     <h4 id="about-card-name">南ひろあき</h4>
     
+      <div id="about-card-bio">色々な国を巡ってノマドっぽい生活したい人。</div>
+    
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        エンジニアリーダー
+        エンジニア/ブリッジSE/中間管理職
       </div>
     
     
@@ -716,7 +709,7 @@ Hugoの凄い所 今回初めてHugoを使って、今始めての記事を書�
     
   
     
-    <div id="cover" style="background-image:url('https://tc-minami.github.io/images/cover.jpg');"></div>
+    <div id="cover" style="background-image:url('https://tc-minami.github.io/images/blue-259458_640.jpg');"></div>
   
 
 
