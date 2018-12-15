@@ -218,6 +218,64 @@ if (!doNotTrack) {
               
   
     
+  
+
+
+  
+
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title" itemprop="headline">
+        <a class="link-unstyled" href="https://tc-minami.github.io/2018/12/hugo%E3%81%AB%E8%87%AA%E4%BD%9Ccss%E3%82%92%E9%81%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+          Hugoに自作CSSを適用する方法
+        </a>
+      </h1>
+      
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-12-15T12:38:33&#43;07:00">
+        
+  12 15, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>カテゴリー</span>
+    
+      <a class="category-link" href="https://tc-minami.github.io/categories/%e9%96%8b%e7%99%ba">開発</a>
+    
+  
+
+  </div>
+
+    </div>
+    <div class="postShorten-excerpt" itemprop="articleBody">
+      
+        Hugoで作成したウェブページに自作CSSを反映させる方法について。
+      
+      <p>
+        <a href="https://tc-minami.github.io/2018/12/hugo%E3%81%AB%E8%87%AA%E4%BD%9Ccss%E3%82%92%E9%81%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" class="postShorten-excerpt_link link">続きを読む</a>
+        
+      </p>
+    </div>
+  </div>
+  
+    <a href="https://tc-minami.github.io/2018/12/hugo%E3%81%AB%E8%87%AA%E4%BD%9Ccss%E3%82%92%E9%81%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+      <div class="postShorten-thumbnailimg">
+        <img alt="" itemprop="image" src="https://user-images.githubusercontent.com/8590431/49916201-68cf4e00-fecc-11e8-85a6-73fc7b435f57.png"/>
+      </div>
+    </a>
+  
+</article>
+
+            
+              
+  
+    
       
         
       
@@ -391,6 +449,27 @@ if (!doNotTrack) {
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://tc-minami.github.io/2018/12/hugo%E3%81%AB%E8%87%AA%E4%BD%9Ccss%E3%82%92%E9%81%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+                <h3 class="media-heading">Hugoに自作CSSを適用する方法</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">以前Hugoでブログはじめました～！って時に色の付け方がわからないとか言ってましたが、思ったより簡単に出来たので方法をまとめておきます。
+以前の記事で触れてたフォントの変更方法もわかったけど、そもそも使いたいフォントを探していないので今回はスルーします。（）
+自作CSSを適用するために必要なもの  自作CSS
+以上。  今回は以下な感じでどシンプルなcssを書いてみました。
+/* Basic css for Text related things. Color info https://www.wanichan.com/web/resources/color.html */ span.b { font-weight: bold; } span.red { color: orangered; } span.gray { color: darkgray; } span.large { font-size: 1.5em; } span.small { font-size: 0.75em; } span.ul { border-bottom: solid 3px;} span.ul-red { border-bottom: solid 3px orangered;} span.ul-gray { border-bottom: solid 3px darkgray;} span.dul { border-bottom: dotted 3px;} span.slash { text-decoration: line-through; }  自作CSSを適用する方法  プロジェクト直下のstaticフォルダ配下にcssファイルを配置する。  画像ファイル等を置いているstaticフォルダを同じ場所です。  themes以下でcssを取り込んでいるhtmlファイルを検索する。  &lt;link rel=&quot;stylesheet&quot; href=&quot;で検索し、他のcssを取り込んでいる場所を探しました。 そこに自作したcssを取り込むコードを以下のように記述するだけで、一瞬で反映されます。   CSSを取り込むコードのサンプル</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://tc-minami.github.io/2018/12/%E7%94%BB%E5%83%8F%E3%81%AE%E7%AE%A1%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
                 <h3 class="media-heading">画像の管理について</h3>
               </a>
@@ -453,7 +532,7 @@ Hugoの凄い所 今回初めてHugoを使って、今始めての記事を書�
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         2 posts found
+         3 posts found
       </p>
     </div>
   </div>
