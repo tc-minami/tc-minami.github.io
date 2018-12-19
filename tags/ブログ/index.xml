@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法まとめ</title>
-      <link>https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/</link>
+      <title>【初心者用】Hugoで作成したブログをGoogle検索結果に表示させる方法【Google Search Console】</title>
+      <link>https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95google-search-console/</link>
       <pubDate>Tue, 18 Dec 2018 10:46:29 +0700</pubDate>
       
-      <guid>https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/</guid>
+      <guid>https://tc-minami.github.io/2018/12/%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8hugo%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92google%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95google-search-console/</guid>
       <description>現状の集客数が0人な件について GitHub PagesとHugoを用いてブログを作って早一週間、GoogleAnalyticsを導入して1つ気がついた事が。
 それはPVがあまりにも少ないということ。
 もちろん素人が作ったブログがPV数稼げるだなんて思ってはいませんが…、流石に自分以外0人は少なすぎるだろうと思い、理由を調べてみました。そこで可能性として上がったのが検索エンジンに登録してないということ。
