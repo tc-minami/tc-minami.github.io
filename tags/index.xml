@@ -48,6 +48,24 @@
     </item>
     
     <item>
+      <title>Tag1</title>
+      <link>https://tc-minami.github.io/tags/tag1/</link>
+      <pubDate>Wed, 19 Dec 2018 16:43:01 +0700</pubDate>
+      
+      <guid>https://tc-minami.github.io/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag2</title>
+      <link>https://tc-minami.github.io/tags/tag2/</link>
+      <pubDate>Wed, 19 Dec 2018 16:43:01 +0700</pubDate>
+      
+      <guid>https://tc-minami.github.io/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ブログ</title>
       <link>https://tc-minami.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
       <pubDate>Tue, 18 Dec 2018 10:46:29 +0700</pubDate>

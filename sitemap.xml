@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tc-minami.github.io/2018/12/disqus%E3%81%AE%E7%99%BB%E9%8C%B2%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tc-minami.github.io/2018/12/pygamepython3%E3%82%92%E5%8B%89%E5%BC%B7%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%A9%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%82%92%E4%BD%BF%E3%81%86%E3%81%B9%E3%81%8D%E3%81%8B%E6%82%A9%E3%82%93%E3%81%A0%E8%A9%B1pysdl2/</loc>
     <lastmod>2018-12-19T12:00:00+07:00</lastmod>
   </url>
@@ -38,6 +43,12 @@
   </url>
   
   <url>
+    <loc>https://tc-minami.github.io/categories/category/</loc>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tc-minami.github.io/tags/css/</loc>
     <lastmod>2018-12-15T12:38:33+07:00</lastmod>
     <priority>0</priority>
@@ -57,13 +68,31 @@
   
   <url>
     <loc>https://tc-minami.github.io/post/</loc>
-    <lastmod>2018-12-19T12:00:00+07:00</lastmod>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tc-minami.github.io/tags/python/</loc>
     <lastmod>2018-12-19T12:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tc-minami.github.io/categories/subcategory/</loc>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tc-minami.github.io/tags/tag1/</loc>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tc-minami.github.io/tags/tag2/</loc>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,18 +104,18 @@
   
   <url>
     <loc>https://tc-minami.github.io/</loc>
-    <lastmod>2018-12-19T12:00:00+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tc-minami.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
-    <lastmod>2018-12-18T10:46:29+07:00</lastmod>
+    <lastmod>2018-12-19T16:43:01+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tc-minami.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <lastmod>2018-12-18T10:46:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tc-minami.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2018-12-18T10:46:29+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -98,13 +127,13 @@
   </url>
   
   <url>
-    <loc>https://tc-minami.github.io/tags/%E9%96%8B%E7%99%BA/</loc>
+    <loc>https://tc-minami.github.io/categories/%E9%96%8B%E7%99%BA/</loc>
     <lastmod>2018-12-19T12:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tc-minami.github.io/categories/%E9%96%8B%E7%99%BA/</loc>
+    <loc>https://tc-minami.github.io/tags/%E9%96%8B%E7%99%BA/</loc>
     <lastmod>2018-12-19T12:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>

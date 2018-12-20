@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>Category</title>
+      <link>https://tc-minami.github.io/categories/category/</link>
+      <pubDate>Wed, 19 Dec 2018 16:43:01 +0700</pubDate>
+      
+      <guid>https://tc-minami.github.io/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subcategory</title>
+      <link>https://tc-minami.github.io/categories/subcategory/</link>
+      <pubDate>Wed, 19 Dec 2018 16:43:01 +0700</pubDate>
+      
+      <guid>https://tc-minami.github.io/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ブログ</title>
       <link>https://tc-minami.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
       <pubDate>Tue, 18 Dec 2018 10:46:29 +0700</pubDate>

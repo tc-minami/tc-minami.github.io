@@ -6,10 +6,19 @@
     <description>Recent content on ノマドコーダー</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Dec 2018 12:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 19 Dec 2018 16:43:01 +0700</lastBuildDate>
     
 	<atom:link href="https://tc-minami.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disqusの登録方法</title>
+      <link>https://tc-minami.github.io/2018/12/disqus%E3%81%AE%E7%99%BB%E9%8C%B2%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 19 Dec 2018 16:43:01 +0700</pubDate>
+      
+      <guid>https://tc-minami.github.io/2018/12/disqus%E3%81%AE%E7%99%BB%E9%8C%B2%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>【pygame】Python3を勉強する際、どのライブラリを使うべきか悩んだ話【PySDL2】</title>
